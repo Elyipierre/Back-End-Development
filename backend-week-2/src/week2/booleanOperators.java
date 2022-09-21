@@ -1,4 +1,4 @@
-package Class2;
+package week2;
 
 public class booleanOperators {
 
