@@ -1,5 +1,7 @@
 package arraysAndMethods;
 
+import java.util.Scanner;
+
 public class objects {
 
 	public static void main(String[] args) {
@@ -28,9 +30,12 @@ public class objects {
 	    
 	    /*
 	     * What are JAVADOCS?
-	     * they are the documentation that the libraries use in java.
+	     * they are the documentation that the libraries use in java. you can search on google: Java String
 	     */
-	    System.out.println(name.charAt(7));
+	    System.out.println(name.charAt(7));// this will print the 7th character in the String object: "Elyi Pierre"
+	    
+	    //Another type of object is a scanner.
+	    Scanner s = new Scanner(System.in); //all primitives are lower case.age All objects are upper case.This is a java naming convention
 	}
 
 }
