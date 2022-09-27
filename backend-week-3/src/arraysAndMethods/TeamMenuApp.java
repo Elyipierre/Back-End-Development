@@ -27,7 +27,7 @@ public class TeamMenuApp {
 			if (decision < -1 || decision >5) {
 				System.out.println("Please  picj a valid option.");
 			} else if (decision == 1) {
-				showTeam(team);
+				//showTeam(team);
 			} else { if (decision == 2) {
 				
 			}else if (decision == 3) {
