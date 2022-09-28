@@ -49,7 +49,7 @@ public class Week3LabMethods {
 		
 		//write and test a method that takes a string and returns true if the string is a palindrome. (A palindrome is a word that is the same forward and back
 		//example: racecar, mom, wow, madam, civic, level, tenet, malayalam, noon, refer, gig, radar, peep, nun, pop, sexes, elle, aidia, ara, hannah, bob
-		System.out.println(isPalindrone("is this wor a palindrone: " + "racecar"));
+		System.out.println(isPalindrone("racecar"));
 	}
 	public static void greet(String name) {
 		System.out.println("Hello " + name + "!");
