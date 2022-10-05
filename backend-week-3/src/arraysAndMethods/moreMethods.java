@@ -49,12 +49,7 @@ public class moreMethods {
     /* 
      * Takes an array of double and returns the average of all elements in the array
      */
-	public static double  decimalArray(double[] dottedDecimals) {
-		double decimal = 0;
-		for (double dottedDecimal : dottedDecimals) {
-			decimal += dottedDecimal;
-		}
-		return decimal;
+	q
 	}
 	public static double calculatedAverage(double[] numbers) {
 		double sum = 0;
