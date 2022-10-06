@@ -32,7 +32,7 @@ public class equality {
 		
 		System.out.println(c);
 		System.out.println(d); // this point to the same object in memory
-		System.out.println(c == d); // this prints out to true because
+		System.out.println(c == d); // this prints out to true because i points to the same object
 	}
 
 }
