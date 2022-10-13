@@ -2,6 +2,10 @@ package Week4Collections;
 
 public class StringBuilder {
 
+	public StringBuilder(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public static void main(String[] args) {
 		
 		String firstName = "Natasha";
@@ -10,5 +14,10 @@ public class StringBuilder {
 		
 		firstName = firstName.concat(lastName);
 		System.out.println(firstName);
+	}
+
+	public void append(String string) {
+		// TODO Auto-generated method stub
+		
 	}
 }
