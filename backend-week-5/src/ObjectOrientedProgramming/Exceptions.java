@@ -26,6 +26,13 @@ public class Exceptions {
 			System.out.println("Finally!");
 		}
 		System.out.println("after the try catch");
+		
+		try {
+			openFile("AnotherFile.jpg");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	public static FileReader openFile(String fileName) throws FileNotFoundException {
 		return new FileReader(fileName);
