@@ -3,7 +3,7 @@ package Week4Collections;
 public class CarArray {
 
 	public static void main(String[] args) {
-		//array = used to store mulitple values in a single variable
+		//array = used to store multiple values in a single variable
 		
 		String[] cars = {"Camaro","Corvette","Tesla","BMW"};
 		

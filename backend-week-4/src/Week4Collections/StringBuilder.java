@@ -2,7 +2,7 @@ package Week4Collections;
 
 public class StringBuilder {
 
-	public StringBuilder(String string) {
+	public StringBuilder() {
 		// TODO Auto-generated constructor stub
 	}
 
@@ -16,7 +16,12 @@ public class StringBuilder {
 		System.out.println(firstName);
 	}
 
-	public void append(String string) {
+	public void append(int index) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setLength(int i) {
 		// TODO Auto-generated method stub
 		
 	}

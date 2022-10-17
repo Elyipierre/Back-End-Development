@@ -5,6 +5,8 @@ import java.lang.reflect.Array;
 public class Week3LabMethods {
 
 	public static void main(String[] args) {
+		int a = 12;
+		int b = 15;
 		//write and test a method that takes a String name and prints out a greeting, this method returns nothing
 		greet("Natasha");
 		greet("Baby Tasha");
@@ -120,5 +122,9 @@ public class Week3LabMethods {
 			}
 		}
 		return true;
+	}
+	public static int addIntergers(int a, int b) {
+		int sum = a+b;
+		return sum;
 	}
 }

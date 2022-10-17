@@ -8,7 +8,7 @@ public class loops {
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);
 		}
-        
+        System.out.println("-----------------------------------------------");
 		for (int j = 0; j <= 100; j ++) {
 			if (j % 2 == 0) {
 				System.out.println(j);

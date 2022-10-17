@@ -8,9 +8,9 @@ public class CallMethod {
 		String lastName = "Pierre";
 		String fullName = createFullName(firstName, lastName);
 		String fullName2 = createFullName("Layla", lastName);
-		String fullName3 = createFullName("Kiera", lastName);
+		String fullName3 = createFullName("Jaden", lastName);
 		String fullName4 = createFullName("Zaria", lastName);
-		String fullName5 = createFullName("Chloe", lastName);
+		String fullName5 = createFullName("Jasmine", lastName);
 		System.out.println(fullName);
 		System.out.println(fullName2);
 		System.out.println(fullName3);
